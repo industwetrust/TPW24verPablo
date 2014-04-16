@@ -1,0 +1,39 @@
+﻿a {
+    background: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 20px 5px;
+}
+
+#content {
+	width: 754px;
+	margin: 0 auto;
+}
+
+#dbTableNameContainer {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#dbContent {
+	margin: 0 auto;
+	background: url(images/img08.jpg) repeat-x;
+}
+
+#dbHeader {
+    width: 754px;
+    height: 26px;
+    font-size: 18px;
+}
+
+.dbLine {
+
+}

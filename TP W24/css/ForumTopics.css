@@ -1,0 +1,51 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	width: 754px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#topicsHeader {
+    width: 754px;
+    height: 26px;
+	background: url(../images/img08.jpg) repeat-x;
+    font-size: 18px;
+}
+
+.topic {
+    border-top: 1px solid #715558;
+    height: 45px;
+}
+
+.topic .title{
+    width: 354px;
+    float: left;
+}
+
+.topic .title .startedBy{
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+.topic .stats{
+    width: 120px;
+    float: left;
+}
+
+.topic .lastPost{
+    width: 280px;
+    float: left;
+    text-align: right;
+}
+
+.newTopicBtn {
+    margin-top: 5px;
+}

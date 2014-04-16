@@ -1,0 +1,51 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	width: 754px;
+	margin: 0 auto;
+}
+
+.section {
+    width: 754px;
+	background: url(../images/img08.jpg) repeat-x;
+}
+
+.section .header {
+    font-size: 18px;
+    color: #715558;
+    padding-top: 8px;
+    height: 30px;
+    margin-top:12px;
+}
+
+.section .board {
+    /*border-top: 1px solid #715558;*/
+    height: 80px;
+}
+
+.section .board .title{
+    width: 354px;
+    float: left;
+}
+
+.section .board .title .sumary{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.section .board .stats{
+    width: 120px;
+    float: left;
+}
+
+.section .board .lastPost{
+    width: 280px;
+    float: left;
+    text-align: right;
+}

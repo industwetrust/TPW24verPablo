@@ -1,0 +1,42 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	margin: 0 auto;
+	/*background: url(images/img08.gif) repeat-x left bottom;*/
+}
+
+#subject {
+    color: #715558;
+    font-size: 22px;
+}
+
+.message {
+    /*border-top: 1px solid #715558;*/
+    margin-top: 30px;
+}
+
+.message .msgFooter {
+    text-align: right;
+    margin-top: -10px;
+}
+
+.message .poster{
+    width: 154px;
+    float: left;
+}
+
+.message .poster .profileImg {
+    width: 60px;
+    height: 60px;
+}
+
+.message .msgContent{
+    font-size: 12px;
+    margin-top: -4px;
+}

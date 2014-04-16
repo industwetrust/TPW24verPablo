@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TP_W24.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../css/Default.css" rel="stylesheet" type="text/css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+	        <div id="menu">
+                <asp:LoginView ID="LoginView1" runat="server" ViewStateMode="Disabled">
+                    <AnonymousTemplate>
+                        <ul>
+			                <li><a href="Default.aspx" accesskey="1" title="">Accueil</a></li>
+			                <li><a href="ForumBoards.aspx" accesskey="2" title="">Forum</a></li>
+			                <li><a href="Account.aspx" accesskey="3" title="">Compte</a></li>
+			                <li><a href="Members.aspx" accesskey="4" title="">Membres</a></li>
+		                </ul>
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <ul>
+			                <li><a href="Default.aspx" accesskey="1" title="">Accueil</a></li>
+			                <li><a href="ForumBoards.aspx" accesskey="2" title="">Forum</a></li>
+			                <li><a href="Account.aspx" accesskey="3" title="">Compte</a></li>
+			                <li><a href="Members.aspx" accesskey="4" title="">Membres</a></li>
+		                </ul>
+                    </LoggedInTemplate>
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <ul>
+			                        <li><a href="Default.aspx" accesskey="1" title="">Accueil</a></li>
+			                        <li><a href="ForumBoards.aspx" accesskey="2" title="">Forum</a></li>
+			                        <li><a href="Account.aspx" accesskey="3" title="">Compte</a></li>
+			                        <li><a href="Members.aspx" accesskey="4" title="">Membres</a></li>
+			                        <li><a href="Management.aspx" accesskey="5" title="" style="color:#715558;">Gestion</a></li>
+		                        </ul>
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                </asp:LoginView>
+	        </div>
+	        <!-- end #menu -->
+
+	        <div id="header">
+		        <h1></h1> <!-- Texte apparaissant sur la 1ere image du header -->
+		        <div id="chasseGalerieContainer"><h2>Les Coulisses du Québec</h2></div> <!-- Texte apparaissant sur la 2e image du header -->
+	        </div>
+	        <!-- end #header -->
+
+            <asp:ContentPlaceHolder ID="body" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

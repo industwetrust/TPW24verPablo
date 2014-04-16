@@ -1,0 +1,48 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	width: 754px;
+	margin: 0 auto;
+}
+
+#messagesHeader {
+    width: 754px;
+    height: 26px;
+	background: url(../images/img08.jpg) repeat-x;
+    font-size: 18px;
+    margin-top:10px;
+}
+
+#answerArea {
+
+}
+
+.message {
+    border-bottom: 1px solid #715558;
+    margin-top:10px;
+}
+
+.message .msgFooter {
+    text-align: right;
+}
+
+.message .poster{
+    width: 154px;
+    float: left;
+}
+
+.message .poster .profileImg {
+    width: 60px;
+    height: 60px;
+}
+
+.message .msgContent{
+    font-size: 12px;
+    margin-top: 18px;
+}

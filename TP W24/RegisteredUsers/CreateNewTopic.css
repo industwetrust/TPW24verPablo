@@ -1,0 +1,18 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	width: 754px;
+	margin: 0 auto;
+	/*background: url(images/img08.gif) repeat-x left bottom;*/
+}
+
+.label {
+    width: 100px;
+    float: left;
+}

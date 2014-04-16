@@ -1,0 +1,46 @@
+﻿a {
+    background: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#content {
+	width: 754px;
+	margin: 0 auto;
+}
+
+#profileImage {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+#profileImage img {
+    width: 160px;
+    height: 160px;
+}
+
+#profileInfos {
+	background: url(../images/img08.jpg) repeat-x;
+    width: 754px;
+}
+
+.infos {
+    width: 754px;
+}
+
+.label {
+    width: 150px;
+    float: left;
+}
+
+.requiredText {
+    color: red;
+}
+
+.inputField {
+
+}
