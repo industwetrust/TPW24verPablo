@@ -6,7 +6,11 @@
     <div id="content">
         <asp:LoginView ID="accountLoginView" runat="server" ViewStateMode="Disabled">
             <AnonymousTemplate>
-                <fieldset>
+                <script type="text/javascript">
+
+                </script>
+
+                <%--<fieldset>
                     <legend>Se connecter</legend>
                     <div>
                         <div class="label">Nom d'utilisateur:</div>
@@ -40,10 +44,10 @@
                         <div class="inputField"><asp:TextBox id="txtEmail" runat="server" />
                         <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="*" ControlToValidate="txtEmail" /></div>
                     </div>
-                    <%--<div>
+                    <div>
                         <div class="label">Date d'aniversaire:</div>
                         <asp:TextBox id="txtBirthDate" runat="server" />
-                    </div>--%>
+                    </div>
                     <div>
                         <div class="label">Sexe:</div>
                         <asp:RadioButton GroupName="Sex" ID="optSexM" Text="Homme" runat="server" Checked="true" />
@@ -64,8 +68,7 @@
                     <div>
                         <asp:Button id="cmdRegister" Text="S'inscrire" runat="server" />
                     </div>
-                </fieldset>
-
+                </fieldset>--%>
             </AnonymousTemplate>
             <LoggedInTemplate>
                 <div id="profileImage">

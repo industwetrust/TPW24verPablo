@@ -34,8 +34,6 @@
             <img class="fleche" src="images/tirage/rightArrow.png" alt="droit"/>
         </div>
         <br />
-        <br />
-
 		<div id="posts">
 			<div class="post">
 				<h2 class="title">Qu'est-ce qu'est ce site?</h2>

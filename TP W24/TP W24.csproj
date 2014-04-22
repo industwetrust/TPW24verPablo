@@ -67,6 +67,8 @@
     <Content Include="images\tirage\quebec1.jpg" />
     <Content Include="images\tirage\quebec2.jpg" />
     <Content Include="images\tirage\rightArrow.png" />
+    <Content Include="LoginPopup\LoginPopup.css" />
+    <Content Include="LoginPopup\LoginPopup.html" />
     <Content Include="RegisteredUsers\CreateNewTopic.aspx" />
     <Content Include="RegisteredUsers\CreateNewTopic.css" />
     <Content Include="Default.aspx" />
